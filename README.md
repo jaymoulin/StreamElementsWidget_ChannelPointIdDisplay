@@ -1,6 +1,6 @@
-# Channel Point Redeemer
+# Channel Point Id Display
 
-Displays a video/image and plays a sound when channel points are redeemed.
+Displays Id and title  when channel points are redeemed.
 
 # Install
 
@@ -12,10 +12,3 @@ Displays a video/image and plays a sound when channel points are redeemed.
 1. Compile `index.js` into `bundle.js` with browserify (just do `make build` if docker and makefile are both installed)
 1. Paste `bundle.js` content in JS code
 
-# Settings
-
-You can define a specific title with these peculiar values:
-
-- `{user}` to display redeemer username
-- `{price}` to display redeemed price 
-- `{reward}` to display redeemed title
